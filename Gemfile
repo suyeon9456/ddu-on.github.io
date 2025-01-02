@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+gem "jekyll", "~> 4.3.2" # Jekyll 최신 버전
+gem "jekyll-theme-chirpy" # Chirpy 테마 추가
+
 gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
